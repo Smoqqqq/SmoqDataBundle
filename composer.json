@@ -1,0 +1,20 @@
+{
+    "name": "smoq/data-bundle",
+    "description": "Symfony bundle data manipulation and display",
+    "require": {
+        "php": "^8.3",
+        "doctrine/orm": ">=2.14",
+        "symfony/ux-live-component": "^2.24",
+        "symfony/form": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Smoq\\DataBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Smoq\\DataBundle\\Tests\\": "tests/"
+        }
+    }
+}

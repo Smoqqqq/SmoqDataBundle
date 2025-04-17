@@ -1,0 +1,6 @@
+services:
+    Smoq\DataBundle\DataFilter\:
+        resource: '../src/DataFilter/'
+        autoconfigure: true
+        autowire: true
+        public: false
